@@ -1,0 +1,242 @@
+:root {
+    --primary: #FF5C00;
+}
+
+*, body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+} 
+
+nav {
+    width: 90%;
+    height: 80px;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav >.brand {
+    font-size: 24px;
+}
+
+nav span {
+    color: var(--primary);
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 38px;
+    display:flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+nav button {
+    padding: 7px 44px;
+    background-color: transparent;
+    border-radius: 24px;
+    border: 2px solid #FF5C00;
+}
+
+.hero {
+    width: 90%;
+    margin: 50px auto;
+    height: max-content;
+    /* border: 2px solid #FF5C00; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .title-hero {
+    width: 500px;
+}
+
+.hero .title-hero h1 {
+    line-height: 70px;
+    width: 504px;
+    font-size: 54px;
+}
+
+.hero .title-hero p {
+    width: 516px;
+    font-size: 18px;
+}
+
+.hero .catagories{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero .catagories div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    gap: 9px;
+}
+
+.hero .catagories div p{
+    font-size: 16px;
+}
+
+.hero .button-cta {
+    padding: 22px 58px;
+    border: none;
+    border-radius: 50px;
+    margin: 10px auto;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+}
+
+.hero-banner {
+    width: 500px;
+    height: 480px;
+    border: 1px solid black;
+    border-radius: 220px 20px 20px 20px;
+}
+
+.banner {
+    padding-right: 16px;
+    width: 500px;
+    transform: translate(-50px, -30px);
+}
+
+.info {
+    margin: 0 auto;
+    height: max-content;
+    width: 90%;
+}
+
+.info .info-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info .info-title>h1 {
+    font-size: 28px;
+}
+
+.info .info-title>a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.info .container-card {
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 18px;
+
+}
+
+.info .container-card .card {
+    width: 400px;
+    height: 400px;
+    box-shadow: 5px 5px 14px -5px rgba(0,0,0,0.88);
+    -webkit-box-shadow: 5px 5px 14px -5px rgba(0,0,0,0.88);
+    -moz-box-shadow: 5px 5px 14px -5px rgba(0,0,0,0.88);
+    border-radius: 20px;
+}
+
+.info .container-card .card .card-title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid silver;
+    padding: 12px;
+    margin-bottom: 3rem;
+}
+
+.info .container-card .card .card-title .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.info .container-card .card .card-title .card-sub h3 {
+    font-size: 16px;
+}
+
+.info .container-card .card .card-title .card-sub p {
+    font-size: 14px;
+}
+
+.info .card .poin {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 30px;
+    margin-bottom: 2rem;
+}
+
+.info .card .poin p {
+    font-size: 14px;
+}
+
+.info button {
+    padding: 17px 49px;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.info div {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 200px;
+    border: 1px solid var(--primary);
+    border-bottom: 0;
+    padding: 0 16px;
+    border-radius: 20px 20px 0 0;
+}
+
+footer .title-footer h1 span{
+    color: var(--primary);
+}
+
+footer .title-footer h1 {
+    line-height: 200px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    color: var(--primary);
+}
+  
