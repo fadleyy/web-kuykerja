@@ -32,32 +32,80 @@
         <button class="hidden">Login</button>
         <i class="bi bi-layout-sidebar-inset-reverse" id="bar"></i>
     </nav>
+    <!-- sevtion hero -->
     <section class="hero">
-        <div class="title-hero">
-            <h1>Cari Kerja Mudah Rekrutmen Cepat</h1>
-            <p>Solusi untuk para pencari kerja yang ingin bekerja sesuai dengan bidanganya, dan para HRD perusahaan
-                untuk melakukan rekrutmen secara cepat.</p>
-            <div class="catagories">
-                <div>
-                    <img src="./img/Vector.png" alt="">
-                    <p>15.000 pengguna</p>
+        <div class="container-hero">
+
+            <div class="title-hero">
+                <h1>Cari Kerja Mudah Rekrutmen Cepat</h1>
+                <p>Solusi untuk para pencari kerja yang ingin bekerja sesuai dengan bidanganya, dan para HRD perusahaan
+                    untuk melakukan rekrutmen secara cepat.</p>
+                <div class="catagories">
+                    <div>
+                        <img src="./img/Vector.png" alt="">
+                        <p>15.000 pengguna</p>
+                    </div>
+                    <div>
+                        <img src="./img/Vector (1).png" alt="">
+                        <p>100+ kategori</p>
+                    </div>
+                    <div>
+                        <img src="./img/Vector (2).png" alt="">
+                        <p>1.000++ perusahaan</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./img/Vector (1).png" alt="">
-                    <p>100+ kategori</p>
+                <button class="button-cta">Explore Now</button>
+            </div>
+            <div class="hero-banner">
+                <img src="./img/image 2.png" alt="" class="banner">
+            </div>
+        </div>
+    </section>
+    <!-- section hero end -->
+
+    <!-- section superior -->
+    <section class="superior">
+        <h1>Keunggulan</h1>
+        <div class="container-card">
+            <div class="card">
+                <div class="frame">
+                    <img src="./img/hurry 1.png" alt="">
                 </div>
-                <div>
-                    <img src="./img/Vector (2).png" alt="">
-                    <p>1.000++ perusahaan</p>
+                <div class="sub">
+                    <h3>Aman dan Cepat</h1>
+                        <p>Menggunakan teknologi yang up-to-date agar pelamar ataupun HRD dapat matching dengan cepat
+                        </p>
                 </div>
             </div>
-            <button class="button-cta">Explore Now</button>
-        </div>
-        <div class="hero-banner">
-            <img src="./img/image 2.png" alt="" class="banner">
+
+            <div class="card">
+                <div class="frame">
+                    <img src="./img/curriculum-vitae 1.png" alt="">
+                </div>
+                <div class="sub">
+                    <h3>Aman dan Cepat</h1>
+                        <p>Menggunakan teknologi yang up-to-date agar pelamar ataupun HRD dapat matching dengan cepat
+                        </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="frame">
+                    <img src="./img/verify 1.png" alt="">
+                </div>
+                <div class="sub">
+                    <h3>Aman dan Cepat</h1>
+                        <p>Menggunakan teknologi yang up-to-date agar pelamar ataupun HRD dapat matching dengan cepat
+                        </p>
+                </div>
+            </div>
         </div>
     </section>
 
+    <!-- section superior -->
+
+
+    <!-- section info  -->
     <section class="info">
         <div class="info-title">
             <h1>Pekerjaan Impian-mu</h1>
@@ -161,6 +209,7 @@
             <button>Lihat Semua</button>
         </div>
     </section>
+    <!-- section info end -->
     <footer>
         <div class="title-footer">
             <h1>Kuyy<span>kerjaa.</span></h1>
@@ -169,16 +218,16 @@
 
             <ul>
                 <li><a href="">Home</a></li>
-            <li><a href="">Info Loker</a></li>
-            <li><a href="">Untuk Perusahaan</a></li>
-        </ul>
-        
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Info Loker</a></li>
-            <li><a href="">Untuk Perusahaan</a></li>
-        </ul>
-    </div>
+                <li><a href="">Info Loker</a></li>
+                <li><a href="">Untuk Perusahaan</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Info Loker</a></li>
+                <li><a href="">Untuk Perusahaan</a></li>
+            </ul>
+        </div>
     </footer>
     <script>
         const nav = document.getElementById('nav');
@@ -191,10 +240,10 @@
             nav.appendChild(button);
             nav.removeChild(button);
             if (!buttonCreated) {
-            const button = document.createElement('button');
-            button.textContent = 'login';
-            nav.appendChild(button);
-            buttonCreated = true;
+                const button = document.createElement('button');
+                button.textContent = 'login';
+                nav.appendChild(button);
+                buttonCreated = true;
             }
         })
     </script>
